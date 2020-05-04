@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3630DB6F-1E45-4C82-89B8-7DBDE5DC837D}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3630DB6F-1E45-4C82-89B8-7DBDE5DC837D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main" ID="{7AF7DDE5-67C2-4313-BCB0-CA3696826E12}" ShortID="378579210">
+					<ChildrenList>
+						<Event Name="Footsteps" ID="{03B6D9BB-5CCE-4D17-A2EA-952D9B803038}">
+							<ChildrenList>
+								<Action Name="" ID="{FB2D0E5C-3830-421A-BF33-64D41C9BE10A}" ShortID="680915322">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{26DE3043-C085-4325-B8B8-5F87CD2DCB8C}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Silence" ID="{9CA10647-6D1C-4096-99F4-9A1B09CA8615}">
+							<ChildrenList>
+								<Action Name="" ID="{70B807D1-CD7C-4885-AE05-6D3877B100AB}" ShortID="847836484">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Silence" ID="{9001D0AA-80BE-42D9-960C-942A4E51A399}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Weapons" ID="{D25FD8B7-A4AA-4CF8-97BE-94CF1333EB2A}" ShortID="1055653857">
+							<ChildrenList>
+								<Event Name="ARShot" ID="{1FE809B9-CF4E-4087-895C-6A7FAD708CBB}">
+									<ChildrenList>
+										<Action Name="" ID="{5BB6C939-393A-44BC-A96E-EA7DA94C4DDD}" ShortID="804945268">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="ARFire" ID="{C97EE080-2BB5-4472-BCFA-E6DAE65A631D}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EnemyShot" ID="{1EC879D3-12DE-49BD-A3A6-5A50AD0EE4E1}">
+									<ChildrenList>
+										<Action Name="" ID="{3BDF246D-0B62-4B50-8472-E6E72DF79753}" ShortID="732833191">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EnemyFire" ID="{F060E131-25D7-49B2-8F6B-8C0491D47670}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="BulletImpact" ID="{EEC46C35-2B87-42D9-989F-459BFABBC02B}">
+									<ChildrenList>
+										<Action Name="" ID="{DC01EEA6-F44A-4D9C-9D89-E024B3D2AFF1}" ShortID="803753762">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Metal_Asphalt_Stone_Hit_m3-002" ID="{9AE4B2BF-D398-4406-903B-DC99DD4D1145}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PistolShot" ID="{D2F054DC-E74E-4472-AA68-B257EF12B486}">
+									<ChildrenList>
+										<Action Name="" ID="{13C1D67B-DA9B-4238-92A7-D07254CDB521}" ShortID="601355333">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="PistolFire" ID="{EC7E2226-8F3C-4162-A5F5-E8E2BDF784B7}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="PistolReload" ID="{A09E4B96-974E-433F-82C7-15CE34C72A33}">
+									<ChildrenList>
+										<Action Name="" ID="{18AB8566-4980-430C-9841-28E50B07AB7D}" ShortID="1054331668">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pistol Reload" ID="{B65708ED-B885-4732-98F8-D0C8285CCDE7}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARReloadEmpty" ID="{08F661E9-661C-4282-A75B-3C915B465929}">
+									<ChildrenList>
+										<Action Name="" ID="{56216822-EBEC-4106-AD90-83F78655A9A6}" ShortID="909912504">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AR Reload-001" ID="{6BC43413-7CB8-4ACD-B344-9DD80EE2B141}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="ARReloadIn" ID="{4B303A9C-8D96-4EE5-A899-C7117868F032}">
+									<ChildrenList>
+										<Action Name="" ID="{44F980BB-F44C-48F2-B75E-04AAF901B40A}" ShortID="864885032">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="AR Reload-002" ID="{D1488938-997B-43F5-BB8E-A24F874F1CCF}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blood" ID="{E6ED584E-1448-4967-997F-AA4662CD0F77}">
+									<ChildrenList>
+										<Action Name="" ID="{9B0C05E7-7EFC-4FA2-A8E0-46D0C899E08B}" ShortID="319063486">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blood" ID="{4A94E7B9-09CE-4FFD-A4EA-91C6A4380447}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Ambience" ID="{B1C66B43-A525-41C9-9320-E6D73865A9DE}">
+							<ChildrenList>
+								<Action Name="" ID="{16BDBA17-C5D7-4B21-876E-8B8CE4AB8EF5}" ShortID="759472067">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{C3C13216-923E-49C4-9575-58429324007C}" WorkUnitID="{AD760C58-9134-4E18-8B31-CDEC8A954335}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

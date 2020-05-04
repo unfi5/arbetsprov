@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831283f65d5f76747a69a0d5c3de96df, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: aceee0afeddfe04087a76741bd63c8b1
+    GuidInternal: 
+    m_lastTime: -8586183538221398021
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 3d75f4494165c64485827ab1abc86b48
+    GuidInternal: 
+    m_lastTime: -8586145400276545842
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 6266430ee2a1a04995c43170a645e358
+    GuidInternal: 
+    m_lastTime: -8586182553760762144
+    List:
+    - name: Main
+      guid: e8a4005c9783ab4daee36fc88ac073b4
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 6fdb3036451e824c89b87dbde5dc837d
+    GuidInternal: 
+    m_lastTime: -8586154934842612169
+    List:
+    - name: Ambience
+      guid: 436bc6b125a5c9419320e6d73865a9de
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Ambience
+        ObjectType: 3
+      Path: Default Work Unit\Main\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ARReloadEmpty
+      guid: e961f6081c668242a75b3c915b465929
+      id: 546878802
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: ARReloadEmpty
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\ARReloadEmpty
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ARReloadIn
+      guid: 9c3a304b968de54ea899c7117868f032
+      id: 96614258
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: ARReloadIn
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\ARReloadIn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ARShot
+      guid: b909e81f4ecf8740895c6a7fad708cbb
+      id: 3480301128
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: ARShot
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\ARShot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Blood
+      guid: 4e58ede648146749997faa4662cd0f77
+      id: 3934470635
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Blood
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\Blood
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BulletImpact
+      guid: 356cc4ee872bd942989f459bfabbc02b
+      id: 1918071375
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: BulletImpact
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\BulletImpact
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: EnemyShot
+      guid: d379c81ede12bd49a3a65a50ad0ee4e1
+      id: 4142889183
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: EnemyShot
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\EnemyShot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: bbd9b603ce5c174da2ea952d9b803038
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 3
+      Path: Default Work Unit\Main\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Main
+      guid: e5ddf77ac2671343bcb0ca3696826e12
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Main
+        ObjectType: 3
+      Path: Default Work Unit\Main\Main
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PistolReload
+      guid: 964b9ea04e973f4382c715ce34c72a33
+      id: 1972462343
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PistolReload
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\PistolReload
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PistolShot
+      guid: dc54f0d24ee77244aa68b257ef12b486
+      id: 3835771680
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PistolShot
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\PistolShot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Silence
+      guid: 4706a19c1c6d964099f49a1b09ca8615
+      id: 3041563226
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Silence
+        ObjectType: 3
+      Path: Default Work Unit\Main\Silence
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Weapons
+      guid: b7d85fd2aaa4f84c97be94cf1333eb2a
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 3
+      Path: Default Work Unit\Main\Weapons\Weapons
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 2dad9da351ae83429b47cbd215ffefed
+    GuidInternal: 
+    m_lastTime: -8586178263919059332
+    List:
+    - name: Absorption
+      guid: 3332e4dfff0cf544b4fee2d884685801
+      id: 4282896854
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Absorption
+        ObjectType: 13
+      Path: Default Work Unit\Absorption
+    - name: Pitch
+      guid: ca2bb37740a96642a17bacbee833d51e
+      id: 1908158473
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pitch
+        ObjectType: 13
+      Path: Default Work Unit\Pitch
+    - name: Reflection
+      guid: a26aa8a35aff5f459f08cc6e7f6e3456
+      id: 1523149678
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Reflection
+        ObjectType: 13
+      Path: Default Work Unit\Reflection
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: e1f98fca30923a44948f73ca91108d49
+    GuidInternal: 
+    m_lastTime: -8586183538221567571
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 2ae210dd1cbd89479ab0e249e943dc14
+    GuidInternal: 
+    m_lastTime: -8586183469629187719
+    List:
+    - name: Footsteps
+      guid: 35a7f29c41c93845b2f36cff6afcb19a
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 11
+      Path: Default Work Unit\Footsteps
+      values:
+      - name: Asphalt
+        guid: bc18c346e66e6e4090fceb5a8d871531
+        id: 4169408098
+        PathAndIcons:
+        - ElementName: Asphalt
+          ObjectType: 10
+      - name: Container
+        guid: 222194c20b50f7439b9b84ca5aee29b1
+        id: 3663054174
+        PathAndIcons:
+        - ElementName: Container
+          ObjectType: 10
+      - name: Grass
+        guid: 066de568b9a8744897741b7944c1fae6
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Gravel
+        guid: 2f824ae9ed47ce4c82dd238cabe4febd
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Gravel
+          ObjectType: 10
+      - name: Pipe
+        guid: 90262af5243c5a419b57c5ee6c98597d
+        id: 1843860801
+        PathAndIcons:
+        - ElementName: Pipe
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: e4cfafec2bd4894c9b97868fbaa3bc2c
+    GuidInternal: 
+    m_lastTime: -8586183538221946558
+    List: []
+  ExpandedItems:
+  - /EarlyReverb_WwiseProject
+  - /EarlyReverb_WwiseProject/Events
+  - /EarlyReverb_WwiseProject/Events/Default Work Unit
+  - /EarlyReverb_WwiseProject/Events/Default Work Unit/Main
+  - /EarlyReverb_WwiseProject/Events/Default Work Unit/Main/Weapons
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

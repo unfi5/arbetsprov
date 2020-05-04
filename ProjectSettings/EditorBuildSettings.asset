@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Assets/Scenes/level_hub.unity
+    guid: ccdbe8ba16bdcd8408d287586864ed9f
+  - enabled: 1
+    path: Assets/Assets/Scenes/LevelGenerator.unity
+    guid: 0d8653f14fe23494db880fb8058342d2
+  m_configObjects: {}

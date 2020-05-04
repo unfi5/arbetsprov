@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7344097345845614837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7344097345845614840}
+  - component: {fileID: 7344097345845614843}
+  - component: {fileID: 7344097345845614842}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7344097345845614840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344097345845614837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.396225, y: 8.643419, z: 4.3389177}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7344097345845614843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344097345845614837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed75d6a311e4f7e4da49398ce3cd36aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7f094c0ead4baba45829b86e90e78faf,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &7344097345845614842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7344097345845614837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 080f63b5d3c8c754381bfbdc1c120a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Footstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8d2e3439b11011f4a916047dfe367c19,
+      type: 2}
+  PistolShot:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ee039ceaf9a007a4cb5fbe3b5d966e44,
+      type: 2}
+  PistolReload:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d69a979394eff674ebe85d8ed3b251ab,
+      type: 2}
+  ARShot:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9fae6f1f85cc2dc43b7c1d0f61571b69,
+      type: 2}
+  ARReload1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b58313100c002de47a5761e9e48c73ae,
+      type: 2}
+  ARReload2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 87b2456126cdec34abe00efd913355ab,
+      type: 2}
+  PlayerHurt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  EnemyHurt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  EnemyShot:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a57d04b2ebf72d249a4786124cf7c450,
+      type: 2}
+  EnemyNotice:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  EnemySearch:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  Throw:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  ThrowCollision:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  BulletImpacts:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 62a4ae3947914354b86aa4006d01d9ba,
+      type: 2}
+  BulletHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1c136eb800832544b96e12742c324546,
+      type: 2}
+  DoorOpen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  DoorClose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  GateOpen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  AmmoPickup:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  HealthPickup:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  KeycardPickup:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  Throwpickup:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  WeaponPickup:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}
+  Ambience:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df9d74fe6936aba41a15e8588e77610b,
+      type: 2}
+  Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 10a08cd19c9c2804abc8c17d52a9c5f4,
+      type: 2}

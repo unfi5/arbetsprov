@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Main\Ambience" DurationType="Infinite"/>
+				<Event Id="546878802" Name="ARReloadEmpty" ObjectPath="\Events\Default Work Unit\Main\Weapons\ARReloadEmpty" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.307730" DurationMax="0.345415">
+					<IncludedMemoryFiles>
+						<File Id="777923446" Language="SFX">
+							<ShortName>AR Reload-001.wav</ShortName>
+							<Path>SFX\AR Reload-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="96614258" Name="ARReloadIn" ObjectPath="\Events\Default Work Unit\Main\Weapons\ARReloadIn" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.243147" DurationMax="0.272923">
+					<IncludedMemoryFiles>
+						<File Id="933696089" Language="SFX">
+							<ShortName>AR Reload-002.wav</ShortName>
+							<Path>SFX\AR Reload-002_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3480301128" Name="ARShot" ObjectPath="\Events\Default Work Unit\Main\Weapons\ARShot" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.419117" DurationMax="0.470443">
+					<IncludedMemoryFiles>
+						<File Id="1006359147" Language="SFX">
+							<ShortName>ARFire.wav</ShortName>
+							<Path>SFX\ARFire_D78358E8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3934470635" Name="Blood" ObjectPath="\Events\Default Work Unit\Main\Weapons\Blood" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.271826" DurationMax="0.303551">
+					<IncludedMemoryFiles>
+						<File Id="845751935" Language="SFX">
+							<ShortName>Blood-001.wav</ShortName>
+							<Path>SFX\Blood-001_469F64A5.wem</Path>
+						</File>
+						<File Id="1073121218" Language="SFX">
+							<ShortName>Blood-002.wav</ShortName>
+							<Path>SFX\Blood-002_A793B9B5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1918071375" Name="BulletImpact" ObjectPath="\Events\Default Work Unit\Main\Weapons\BulletImpact" DurationType="OneShot" DurationMin="0.028139" DurationMax="0.028139">
+					<IncludedMemoryFiles>
+						<File Id="503831513" Language="SFX">
+							<ShortName>Metal_Asphalt_Stone_Hit_m3-002.wav</ShortName>
+							<Path>SFX\Metal_Asphalt_Stone_Hit_m3-002_50F335E3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4142889183" Name="EnemyShot" ObjectPath="\Events\Default Work Unit\Main\Weapons\EnemyShot" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.265602" DurationMax="1.420591">
+					<IncludedMemoryFiles>
+						<File Id="144032693" Language="SFX">
+							<ShortName>EnemyFire.wav</ShortName>
+							<Path>SFX\EnemyFire_06B99D85.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Main\Footsteps" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.117262" DurationMax="0.297268">
+					<IncludedMemoryFiles>
+						<File Id="11635920" Language="SFX">
+							<ShortName>Footsteps_Left_Asphalt-001.wav</ShortName>
+							<Path>SFX\Footsteps_Left_Asphalt-001_1C2DC488.wem</Path>
+						</File>
+						<File Id="88848556" Language="SFX">
+							<ShortName>Footsteps_Left_Grass-003.wav</ShortName>
+							<Path>SFX\Footsteps_Left_Grass-003_10C4C929.wem</Path>
+						</File>
+						<File Id="256378174" Language="SFX">
+							<ShortName>Footsteps_Left_Gravel-001.wav</ShortName>
+							<Path>SFX\Footsteps_Left_Gravel-001_10C4C929.wem</Path>
+						</File>
+						<File Id="280247556" Language="SFX">
+							<ShortName>Footsteps_Left_Pipe-001.wav</ShortName>
+							<Path>SFX\Footsteps_Left_Pipe-001_10C4C929.wem</Path>
+						</File>
+						<File Id="362925998" Language="SFX">
+							<ShortName>Footsteps_Left_Container-001.wav</ShortName>
+							<Path>SFX\Footsteps_Left_Container-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{46C318BC-6EE6-406E-90FC-EB5A8D871531}">
+							<Media>
+								<File Id="11635920"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C2942122-500B-43F7-9B9B-84CA5AEE29B1}">
+							<Media>
+								<File Id="362925998"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{68E56D06-A8B9-4874-9774-1B7944C1FAE6}">
+							<Media>
+								<File Id="88848556"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E94A822F-47ED-4CCE-82DD-238CABE4FEBD}">
+							<Media>
+								<File Id="256378174"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F52A2690-3C24-415A-9B57-C5EE6C98597D}">
+							<Media>
+								<File Id="280247556"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1972462343" Name="PistolReload" ObjectPath="\Events\Default Work Unit\Main\Weapons\PistolReload" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.732950" DurationMax="0.822708">
+					<IncludedMemoryFiles>
+						<File Id="184563703" Language="SFX">
+							<ShortName>Pistol Reload.wav</ShortName>
+							<Path>SFX\Pistol Reload_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3835771680" Name="PistolShot" ObjectPath="\Events\Default Work Unit\Main\Weapons\PistolShot" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.314126" DurationMax="0.352594">
+					<IncludedMemoryFiles>
+						<File Id="181810542" Language="SFX">
+							<ShortName>PistolFire.wav</ShortName>
+							<Path>SFX\PistolFire_54B18FDA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3041563226" Name="Silence" ObjectPath="\Events\Default Work Unit\Main\Silence" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.100000" DurationMax="0.100000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1523149678" Name="Reflection" ObjectPath="\Game Parameters\Default Work Unit\Reflection"/>
+				<GameParameter Id="4282896854" Name="Absorption" ObjectPath="\Game Parameters\Default Work Unit\Absorption"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps">
+					<Switches>
+						<Switch Id="4169408098" Name="Asphalt" ObjectPath="\Switches\Default Work Unit\Footsteps\Asphalt"/>
+						<Switch Id="3663054174" Name="Container" ObjectPath="\Switches\Default Work Unit\Footsteps\Container"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Footsteps\Grass"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\Footsteps\Gravel"/>
+						<Switch Id="1843860801" Name="Pipe" ObjectPath="\Switches\Default Work Unit\Footsteps\Pipe"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

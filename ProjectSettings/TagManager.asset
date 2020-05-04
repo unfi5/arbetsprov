@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Plywood
+  - Stone
+  - Metal
+  - Enemy
+  - EnemySpawners
+  - EnemyHead
+  - Tutorial
+  - Pickup
+  - Rocket
+  - Boss
+  - Wood
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Player
+  - Rooms
+  - Floor
+  - Enemy
+  - Walls
+  - Head
+  - Weapon
+  - Props
+  - Pickups
+  - Boss
+  - EnemyPass
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,72 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Main\Ambience	
+	96614258	ARReloadIn			\Default Work Unit\Main\Weapons\ARReloadIn	
+	546878802	ARReloadEmpty			\Default Work Unit\Main\Weapons\ARReloadEmpty	
+	1918071375	BulletImpact			\Default Work Unit\Main\Weapons\BulletImpact	
+	1972462343	PistolReload			\Default Work Unit\Main\Weapons\PistolReload	
+	2385628198	Footsteps			\Default Work Unit\Main\Footsteps	
+	3041563226	Silence			\Default Work Unit\Main\Silence	
+	3480301128	ARShot			\Default Work Unit\Main\Weapons\ARShot	
+	3835771680	PistolShot			\Default Work Unit\Main\Weapons\PistolShot	
+	3934470635	Blood			\Default Work Unit\Main\Weapons\Blood	
+	4142889183	EnemyShot			\Default Work Unit\Main\Weapons\EnemyShot	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1843860801	Pipe	Footsteps			
+	2185786256	Gravel	Footsteps			
+	3663054174	Container	Footsteps			
+	4169408098	Asphalt	Footsteps			
+	4248645337	Grass	Footsteps			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1523149678	Reflection			\Default Work Unit\Reflection	
+	4282896854	Absorption			\Default Work Unit\Absorption	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	76872983	Modulator LFO (Custom)				
+	82592429	Modulator LFO (Custom)				
+	92608597	Modulator LFO (Custom)				
+	124177454	Modulator LFO (Custom)				
+	169744950	Modulator LFO (Custom)				
+	443775922	Modulator LFO (Custom)				
+	526553277	Modulator LFO (Custom)				
+	590776456	Modulator LFO (Custom)				
+	614633186	Modulator LFO (Custom)				
+	683874202	Modulator LFO (Custom)				
+	770481700	Modulator LFO (Custom)				
+	794742647	Modulator LFO (Custom)				
+	873712874	Modulator LFO (Custom)				
+	936190979	Modulator LFO (Custom)				
+	978987931	Modulator LFO (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	218413417	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+	463663035	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	138921406	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\C\Wwise Tone Generator	
+	351077885	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\SR\Wwise Tone Generator	
+	403555210	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Silence\Wwise Silence	
+	653608050	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\SL\Wwise Tone Generator	
+	995066048	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\R\Wwise Tone Generator	
+	1048644055	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\L\Wwise Tone Generator	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11635920	Footsteps_Left_Asphalt-001	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Footsteps_Left_Asphalt-001_1C2DC488.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Left_Asphalt-001		11990
+	88848556	Footsteps_Left_Grass-003	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Footsteps_Left_Grass-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Left_Grass-003		19552
+	144032693	EnemyFire	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\EnemyFire_06B99D85.wem		\Actor-Mixer Hierarchy\Default Work Unit\3d\Weapons\EnemyFire		114742
+	181810542	PistolFire	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\PistolFire_54B18FDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\3d\Weapons\PistolFire		28528
+	184563703	Pistol Reload	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Pistol Reload_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\3d\Weapons\Pistol Reload		66478
+	256378174	Footsteps_Left_Gravel-001	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Footsteps_Left_Gravel-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Left_Gravel-001		27000
+	280247556	Footsteps_Left_Pipe-001	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Footsteps_Left_Pipe-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Left_Pipe-001		16188
+	362925998	Footsteps_Left_Container-001	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Footsteps_Left_Container-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Left_Container-001		12972
+	503831513	Metal_Asphalt_Stone_Hit_m3-002	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Metal_Asphalt_Stone_Hit_m3-002_50F335E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metal_Asphalt_Stone_Hit_m3-002		3096
+	777923446	AR Reload-001	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\AR Reload-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\3d\Weapons\AR Reload-001		27948
+	845751935	Blood-001	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Blood-001_469F64A5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blood\Blood-001		23994
+	933696089	AR Reload-002	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\AR Reload-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\3d\Weapons\AR Reload-002		22096
+	1006359147	ARFire	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\ARFire_D78358E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\3d\Weapons\ARFire		38040
+	1073121218	Blood-002	E:\Skrivbord\Allt\Kenny\EarlyReverb\EarlyReverb_WwiseProject\.cache\Mac\SFX\Blood-002_A793B9B5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blood\Blood-002		30058
+
